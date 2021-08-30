@@ -2,7 +2,7 @@ import java.io.IOException;
 
 abstract class BaseApiTest {
 
-    private final String token;
+    public final String token;
     private final String baseUri;
     private final String userName;
     private final String imageHash;
